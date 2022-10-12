@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+}
+
+
+.btn-primary {
+    background-color: #3D55F9;
+    border: none;
+    border-radius: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #3144c5;
+}
+
+.navbar-nav {
+    width: 217px;
+}
+
+/* PROMO */
+
+.promo {
+    border: 3px dashed lightgrey;
+}
+
+.promo .btn-primary {
+    margin: 0;
+    padding: 18px 30px;
+}
+
+.promo .form-row {
+    padding: .75rem .75rem .75rem 2rem;
+    border-radius: 12px;
+}
+
+.promo input {
+    width: 45%;
+    border: none;
+}
+
+.promo .promo-text h1 {
+    margin-top: .75rem;
+    font-size: 2.5rem;
+}
+
+.promo .promo-text p {
+    margin-top: 3rem;
+}
+
+.promo .promo-text form {
+    margin-top: 2rem;
+}
+
+.promo .promo-img {
+    width: 600px;
+}
+
+.promo .promo-img img {
+    width: 100%;
+}
+
+/* BIOHACKING */
+
+.biohacking {
+    margin-top: 10rem;
+}
+
+.biohacking .biohacking-img {
+    width: 270px;
+    padding: 0;
+    border-radius: 50px;
+}
+
+.biohacking .biohacking-img img {
+    width: 100%;
+}
+
+.biohacking .biohacking-text p:first-child {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #3D55F9;
+}
+
+.biohacking .biohacking-text h2 {
+    font-size: 2rem;
+}
+
+/* DISCOVER */
+
+.discover {
+    margin-top: 10rem;
+}
+
+.discover h2 {
+    max-width: 70%;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.discover>div {
+    margin-top: 2rem;
+}
+
+.discover .discover-text span {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #3D55F9;
+    color: #FFFFFF;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .discover-text h3 {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+.discover .discover-text p {
+    margin-top: 1.75rem;
+}
+
+.discover .discover-img {
+    width: 330px;
+}
+
+.discover .discover-img img {
+    width: 100%;
+}
+
+/* QUOTE */
+
+.quote {
+    margin-top: 5rem;
+}
+
+.quote .card {
+    background: #3D55F9;
+}
+
+.quote img {
+    width: 50px;
+    margin-left: .5rem;
+    border-radius: 50%;
+}
+
+/* PERKS */
+
+.perks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.perks .perks-card {
+    margin-top: 2rem;
+    border-radius: 35px;
+}
+
+.perks .perks-card:nth-child(1) {
+    align-self: flex-start;
+}
+
+.perks .perks-card:nth-child(3) {
+    align-self: flex-end;
+}
+
+.perks .perks-card .card-body p:first-child {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #3D55F9;
+}
+
+.perks .perks-card .card-body h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* ABOUT */
+
+.about {
+    margin-top: 6rem;
+}
+
+.about .about-header {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+}
+
+.about .about-header p:first-child {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #3D55F9;
+}
+
+.about .about-header h2 {
+    margin-top: 1rem;
+    font-size: 1.75rem;
+}
+
+.about .about-header p:last-child {
+    margin-top: 2rem;
+}
+
+.about .about-descr {
+    margin-top: 5rem;
+}
+
+.about .about-descr .about-img {
+    position: relative;
+}
+
+.about .about-descr img:nth-child(1) {
+    width: 100%;
+    border-radius: 120px;
+}
+
+.about .about-descr img:nth-child(2) {
+    position: absolute;
+    transform: scale(.95);
+    width: 100%;
+    top: 70%;
+    left: -4%;
+}
+
+.about .about-descr .about-text>div {
+    margin-top: 2rem;
+}
+
+.about .about-descr .about-text h4 {
+    font-weight: 600;
+    font-size: 1.35rem;
+    margin-top: 1rem;
+}
+
+.about .about-descr .about-text p {
+    margin-top: 1.35rem;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 6rem;
+    padding: 5rem;
+    border-top: 1px solid lightgrey;
+}
+
+footer p {
+    font-size: .80rem;
+    color: rgba(7, 19, 48, 0.5);
+}
+
+/* ADAPTIVE */
+
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: .95rem;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-primary {
+        margin-top: 10px;
+    }
+
+    .promo .promo-text h1 {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .biohacking {
+        margin-top: 7rem;
+    }
+
+    .biohacking .biohacking-text {
+        order: -1;
+    }
+
+    .biohacking .biohacking-img {
+        margin-top: 2.5rem;
+    }
+
+    .discover .discover-img {
+        display: none;
+    }
+
+    .about .about-descr {
+        flex-direction: column;
+    }
+
+    .about .about-descr .col-6 {
+        flex: 1 0 auto;
+        max-width: 100%;
+    }
+
+    .about .about-descr .col-5 {
+        flex: 1 0 auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 434px) {
+    .promo .promo-text .form-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .promo .promo-text input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .promo .promo-text button {
+        margin-top: .65rem;
+    }
+}
